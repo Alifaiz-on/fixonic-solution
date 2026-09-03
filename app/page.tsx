@@ -21,7 +21,7 @@ export default function Home() {
       <ToolsBrandsSection />
       <Testimonials />
       <FAQ />
-      <Footer />
+      
     </main>
   );
 }

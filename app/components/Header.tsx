@@ -7,32 +7,32 @@ const services = [
   {
     title: "Web Development",
     description: "High-performance websites designed to convert and scale.",
-    href: "#services",
+    href: "/services/website-development",
   },
   {
     title: "Digital Marketing",
     description: "Performance campaigns built around leads, sales and growth.",
-    href: "#services",
+    href: "/services/digital-marketing",
   },
   {
-    title: "Branding",
-    description: "Distinct brand identities built to be remembered.",
-    href: "#services",
+    title: "UI/UX Design",
+    description: "Intuitive digital experiences designed for seamless interaction.",
+    href: "/services/ui-ux-design",
   },
   {
     title: "SEO",
     description: "Organic search strategies for sustainable visibility.",
-    href: "#services",
+    href: "/services/seo",
   },
   {
     title: "AI Automation",
     description: "Smarter systems that reduce repetitive work and save time.",
-    href: "#services",
+    href: "/services/ai-solutions",
   },
   {
-    title: "Mobile & Cloud",
-    description: "Scalable digital products and cloud-based solutions.",
-    href: "#services",
+    title: "Domain & Hosting",
+    description: "Reliable hosting infrastructure designed for speed and performance.",
+    href: "/services/domain-hosting",
   },
 ];
 
@@ -112,7 +112,7 @@ export default function Header() {
           </a>
 
           <nav className="site-nav">
-            <a href="#" className="nav-link">
+            <a href="/" className="nav-link">
               Home
             </a>
 
@@ -197,11 +197,11 @@ export default function Header() {
               )}
             </div>
 
-            <a href="#about" className="nav-link">
+            <a href="/about" className="nav-link">
               About Us
             </a>
 
-            <a href="#contact" className="nav-link">
+            <a href="/contact" className="nav-link">
               Contact Us
             </a>
           </nav>

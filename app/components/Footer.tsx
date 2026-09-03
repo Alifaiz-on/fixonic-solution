@@ -15,7 +15,7 @@ export default function Footer() {
             through technology, design, and strategy.
           </p>
 
-          <a href="#">
+          <a href="/contact">
             GET IN TOUCH
           </a>
         </div>
@@ -25,10 +25,10 @@ export default function Footer() {
 
           <div>
             <h4>Explore</h4>
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
+            <a href="/">Home</a>
+            <a href="/about">About Us</a>
+            <a href="/services">Services</a>
+            <a href="/contact">Contact</a>
           </div>
 
 

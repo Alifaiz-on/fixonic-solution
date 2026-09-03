@@ -7,6 +7,8 @@ label:"01 / WEBSITE DEVELOPMENT",
 title:
 "High-Performance Websites Built For Business Growth",
 
+problemImage:
+"/images/website.png",
 description:
 "We create fast, responsive and SEO-friendly websites designed to improve your online presence, increase conversions and help your business grow.",
 
@@ -78,6 +80,9 @@ label:"02 / SEO SERVICES",
 
 title:
 "Improve Rankings. Increase Organic Growth.",
+
+problemImage:
+"/images/seo.jpg",
 
 description:
 "Strategic SEO solutions focused on improving visibility, search rankings and bringing qualified traffic to your business.",
@@ -251,6 +256,8 @@ label:"03 / DIGITAL MARKETING",
 title:
 "Marketing Strategies That Turn Attention Into Growth.",
 
+problemImage:
+"/images/marketing.png",
 
 description:
 "We create data-driven digital marketing campaigns that help brands reach the right audience, increase engagement and generate measurable business results.",
@@ -469,6 +476,9 @@ label:"04 / UI UX DESIGN",
 
 title:
 "Design Experiences Users Love.",
+
+problemImage:
+"/images/design.png",
 
 
 description:

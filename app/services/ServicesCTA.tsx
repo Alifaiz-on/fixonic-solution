@@ -63,7 +63,12 @@ that helps your business grow.
 
 <button>
 
-Get A Quote
+<a
+  href="/contact"
+  className="services-cta-button"
+>
+  Get a Quote 
+</a>
 
 <span>
 ↗

@@ -21,7 +21,7 @@ export default function AboutPage() {
         <AboutWhoWeAre />
       </main>
 
-      <Footer />
+      
     </>
   );
 }

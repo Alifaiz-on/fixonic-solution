@@ -34,7 +34,7 @@ return(
 </main>
 
 
-<Footer />
+
 
 </>
 

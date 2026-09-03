@@ -126,7 +126,7 @@ stronger brands and achieve measurable growth.
 
 <motion.a
 
-href="#contact"
+href="/contact"
 
 className="about-btn"
 

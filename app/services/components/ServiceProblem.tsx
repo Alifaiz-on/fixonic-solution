@@ -164,9 +164,9 @@ duration:.2
 
 <img
 
-src="/images/service-mockup.png"
+src={data.problemImage || "/images/service-mockup.png"}
 
-alt="service problem illustration"
+alt={data.title}
 
 />
 

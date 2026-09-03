@@ -25,9 +25,9 @@ export default function IntroSection() {
               </strong>
             </p>
 
-            <a href="#process" className="intro-process-btn">
+            <a href="/about" className="intro-process-btn">
               <span>↗</span>
-              Explore Our Process
+              More About Us
             </a>
           </div>
 

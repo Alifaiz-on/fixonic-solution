@@ -7,38 +7,40 @@ const services = [
 
 {
 title:"Website Development",
-text:"High-performance websites built with modern technologies to improve your online presence and business growth."
+text:"High-performance websites built with modern technologies to improve your online presence and business growth.",
+href:"/services/website-development"
 },
 
 {
 title:"UI/UX Design",
-text:"User-focused digital experiences designed to make your website simple, attractive, and easy to use."
+text:"User-focused digital experiences designed to make your website simple, attractive, and easy to use.",
+href:"/services/ui-ux-design"
 },
 
 {
 title:"SEO Optimization",
-text:"Strategic SEO solutions that improve rankings, visibility, and bring organic traffic to your business."
+text:"Strategic SEO solutions that improve rankings, visibility, and bring organic traffic to your business.",
+href:"/services/seo"
 },
 
 {
 title:"Digital Marketing",
-text:"Performance-driven campaigns that connect your brand with the right audience."
+text:"Performance-driven campaigns that connect your brand with the right audience.",
+href:"/services/digital-marketing"
 },
 
 {
 title:"AI Solutions",
-text:"Smart automation and AI-powered solutions that improve productivity and efficiency."
+text:"Smart automation and AI-powered solutions that improve productivity and efficiency.",
+href:"/services/ai-solutions"
 },
 
 {
-title:"Custom Web Applications",
-text:"Scalable web applications designed around your business requirements."
+title:"Domain & Hosting",
+text:"Scalable web applications designed around your business requirements.",
+href:"/services/domain-hosting"
 },
 
-{
-title:"Mobile App Development",
-text:"Modern mobile applications built to improve customer engagement."
-}
 
 ];
 
@@ -79,8 +81,6 @@ const up =
 e.deltaY < 0;
 
 
-
-// keep page fixed while services can move
 
 if(
 (down && current < maxScroll) ||
@@ -139,13 +139,16 @@ className="services-scroll"
 services.map((service,index)=>(
 
 
-<div
+<a
+
+href={service.href}
 
 className="service-item"
 
 key={index}
 
 >
+
 
 
 <div className="service-arrow">
@@ -159,7 +162,9 @@ key={index}
 <div className="service-name">
 
 <h3>
+
 {service.title}
+
 </h3>
 
 </div>
@@ -169,13 +174,16 @@ key={index}
 <div className="service-text">
 
 <p>
+
 {service.text}
+
 </p>
 
 </div>
 
 
-</div>
+
+</a>
 
 
 ))
@@ -193,13 +201,19 @@ key={index}
 
 
 <h3>
+
 Free consultation
+
 </h3>
 
 
-<button>
-SCHEDULE A FREE CALL ↗
-</button>
+
+<a
+  href="/contact"
+  className="services-cta-button"
+>
+  SCHEDULE A FREE CALL ↗
+</a>
 
 
 </div>
