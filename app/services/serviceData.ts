@@ -59,7 +59,7 @@ image:"/images/icons/Website/github.png"
 },
 {
 name:"css3",
-image:"/images/icons/website/css3.png"
+image:"/images/icons/Website/CSS.png"
 }
 
 ],
@@ -253,41 +253,41 @@ icons:[
 
 {
 name:"ahref",
-image:"/images/icons/seo/ahref.png"
+image:"/images/icons/SEO/ahref.png"
 },
 
 {
 name:"analytics",
-image:"/images/icons/seo/analytics.png"
+image:"/images/icons/SEO/analytics.png"
 },
 
 {
 name:"frog",
-image:"/images/icons/seo/frog.png"
+image:"/images/icons/SEO/frog.png"
 },
 {
 name:"moz",
-image:"/images/icons/seo/moz.png"
+image:"/images/icons/SEO/moz.png"
 },
 {
 name:"rankmath",
-image:"/images/icons/seo/rankmath.png"
+image:"/images/icons/SEO/rankmath.png"
 },
 {
 name:"console",
-image:"/images/icons/seo/console.png"
+image:"/images/icons/SEO/console.png"
 },
 {
 name:"semrush",
-image:"/images/icons/seo/semrush.png"
+image:"/images/icons/SEO/semrush.png"
 },
 {
 name:"web master",
-image:"/images/icons/seo/master.png"
+image:"/images/icons/SEO/master.png"
 },
 {
 name:"Yoast",
-image:"/images/icons/seo/yoast.png"
+image:"/images/icons/SEO/yoast.png"
 }
 
 ],
@@ -991,37 +991,37 @@ icons:[
 
 {
 name:"Chat GPT",
-image:"/images/icons/Ai/chatgpt.png"
+image:"/images/icons/AI/chatgpt.png"
 },
 
 {
 name:"Claude",
-image:"/images/icons/Ai/claude.png"
+image:"/images/icons/AI/claude.png"
 },
 
 {
 name:"Dontknow",
-image:"/images/icons/Ai/dontknow.png"
+image:"/images/icons/AI/dontknow.png"
 },
 {
 name:"Flowise",
-image:"/images/icons/Ai/flowise.png"
+image:"/images/icons/AI/flowise.png"
 },
 {
 name:"Gemini",
-image:"/images/icons/Ai/gemini.png"
+image:"/images/icons/AI/gemini.png"
 },
 {
 name:"Lang Chain",
-image:"/images/icons/Ai/langchain.png"
+image:"/images/icons/AI/langchain.png"
 },
 {
 name:"N8N",
-image:"/images/icons/Ai/n8n.png"
+image:"/images/icons/AI/n8n.png"
 },
 {
 name:"Hood",
-image:"/images/icons/Ai/hood.png"
+image:"/images/icons/AI/hood.png"
 }
 
 ],
