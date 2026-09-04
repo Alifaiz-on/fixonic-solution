@@ -991,37 +991,37 @@ icons:[
 
 {
 name:"Chat GPT",
-image:"/images/icons/ai/chatgpt.png"
+image:"/images/icons/Ai/chatgpt.png"
 },
 
 {
 name:"Claude",
-image:"/images/icons/ai/claude.png"
+image:"/images/icons/Ai/claude.png"
 },
 
 {
 name:"Dontknow",
-image:"/images/icons/ai/dontknow.png"
+image:"/images/icons/Ai/dontknow.png"
 },
 {
 name:"Flowise",
-image:"/images/icons/ai/flowise.png"
+image:"/images/icons/Ai/flowise.png"
 },
 {
 name:"Gemini",
-image:"/images/icons/ai/gemini.png"
+image:"/images/icons/Ai/gemini.png"
 },
 {
 name:"Lang Chain",
-image:"/images/icons/ai/langchain.png"
+image:"/images/icons/Ai/langchain.png"
 },
 {
 name:"N8N",
-image:"/images/icons/ai/n8n.png"
+image:"/images/icons/Ai/n8n.png"
 },
 {
 name:"Hood",
-image:"/images/icons/ai/hood.png"
+image:"/images/icons/Ai/hood.png"
 }
 
 ],
