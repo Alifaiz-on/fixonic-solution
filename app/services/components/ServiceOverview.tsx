@@ -4,13 +4,23 @@ import { motion } from "framer-motion";
 import "./ServiceOverview.css";
 
 
-interface ServiceOverviewProps {
+interface IconType{
+
+name:string;
+
+image:string;
+
+}
+
+
+
+interface ServiceOverviewProps{
 
 title:string;
 
 description:string;
 
-icons:string[];
+icons:IconType[];
 
 }
 
@@ -27,12 +37,15 @@ icons
 }:ServiceOverviewProps){
 
 
+
 return (
 
 <section className="service-overview">
 
 
 <div className="overview-glow"></div>
+
+
 
 
 
@@ -68,7 +81,12 @@ duration:.8
 
 
 
+
+
 <div className="overview-bottom">
+
+
+
 
 
 
@@ -97,7 +115,13 @@ duration:.8
 >
 
 
+
+
+
 <div className="overview-track">
+
+
+
 
 
 {
@@ -107,26 +131,47 @@ duration:.8
 
 <div
 
-className={`overview-icon icon-${index%3}`}
+className="overview-icon"
 
 key={index}
 
 >
 
-{icon}
+
+
+<img
+
+src={icon.image}
+
+alt={icon.name}
+
+/>
+
+
 
 </div>
 
 
 ))
 
+
 }
+
+
+
 
 
 </div>
 
 
+
+
+
 </motion.div>
+
+
+
+
 
 
 
@@ -158,6 +203,9 @@ duration:.8
 >
 
 
+
+
+
 <p>
 
 {description}
@@ -165,7 +213,14 @@ duration:.8
 </p>
 
 
+
+
+
 </motion.div>
+
+
+
+
 
 
 
@@ -173,7 +228,10 @@ duration:.8
 
 
 
+
+
 </section>
+
 
 )
 

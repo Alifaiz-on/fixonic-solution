@@ -2,7 +2,7 @@
 
 background:#020914;
 
-padding:110px 0;
+padding:70px 0;
 
 overflow:hidden;
 
@@ -82,8 +82,6 @@ line-height:1.7;
 
 .tech-carousel{
 
-margin-top:120px;
-
 width:100vw;
 
 overflow:hidden;
@@ -94,23 +92,26 @@ left:50%;
 
 transform:translateX(-50%);
 
+margin-top:100px;
+
 }
-
-
 
 
 
 .tech-track{
 
 display:flex;
+padding: 50px 10px;
+align-items:center;
 
-gap:120px;
+gap:80px;
 
 width:max-content;
 
-align-items:center;
+will-change:transform;
 
 }
+
 
 
 
@@ -122,41 +123,23 @@ display:flex;
 
 align-items:center;
 
-gap:20px;
+justify-content:center;
 
-min-width:220px;
-
-}
-
-
-
-
-
-.tech-icon{
-
-font-size:45px;
-
-line-height:1;
-
-color:#3155ff;
-
-filter:
-
-drop-shadow(0 0 18px rgba(49,85,255,.45));
+flex-shrink:0;
 
 }
 
 
 
+.tech-image{
+
+width:80px;
+
+height:80px;
+border-radius: 16px;
+object-fit:contain;
 
 
-.tech-item span{
-
-font-size:26px;
-
-color:#d7e2ff;
-
-white-space:nowrap;
 
 }
 
@@ -177,15 +160,17 @@ font-size:55px;
 
 .tech-track{
 
-gap:50px;
+gap:60px;
 
 }
 
 
 
-.tech-icon{
+.tech-diamond{
 
-font-size:42px;
+width:22px;
+
+height:22px;
 
 }
 
@@ -193,7 +178,7 @@ font-size:42px;
 
 .tech-item span{
 
-font-size:18px;
+font-size:22px;
 
 }
 
@@ -209,7 +194,7 @@ font-size:18px;
 
 .tech-section{
 
-padding:30px 0;
+padding:70px 0;
 
 }
 
@@ -223,17 +208,35 @@ font-size:40px;
 
 
 
-.tech-carousel{
+.tech-container p{
 
-margin-top:60px;
+font-size:15px;
 
 }
 
 
 
-.tech-icon{
+.tech-carousel{
 
-font-size:34px;
+margin-top:70px;
+
+}
+
+
+
+.tech-track{
+
+gap:45px;
+
+}
+
+
+
+.tech-diamond{
+
+width:18px;
+
+height:18px;
 
 }
 
@@ -241,15 +244,9 @@ font-size:34px;
 
 .tech-item span{
 
-font-size:16px;
+font-size:18px;
 
 }
 
-.tech-item {
-    align-items: center;
-    gap: 5px;
-    min-width: auto;
-    display: flex;
-}
 
 }

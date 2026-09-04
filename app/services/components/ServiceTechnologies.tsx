@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { motion } from "framer-motion";
 import "./ServiceTechnologies.css";
 
 
@@ -9,6 +8,12 @@ export default function ServiceTechnologies({data}:any){
 
 
 const trackRef = useRef<HTMLDivElement>(null);
+
+const speedRef = useRef(0.7);
+
+const directionRef = useRef(-1);
+
+const targetSpeed = useRef(0.7);
 
 
 
@@ -22,146 +27,58 @@ if(!track) return;
 
 let position = 0;
 
-let baseSpeed = 0.6;
-
-let currentSpeed = baseSpeed;
-
-let direction = 1;
-
-let lastScroll = window.scrollY;
-
-let scrollTimeout:any;
-
 let animation:number;
 
 
 
-
-const handleScroll =()=>{
-
-
-const currentScroll = window.scrollY;
+const animate = ()=>{
 
 
-
-if(currentScroll > lastScroll){
-
-direction = 1;
-
-}
-else if(currentScroll < lastScroll){
-
-direction = -1;
-
-}
+speedRef.current += 
+(targetSpeed.current - speedRef.current) * 0.08;
 
 
 
-currentSpeed = 2.5;
+position += speedRef.current * directionRef.current;
 
 
 
-clearTimeout(scrollTimeout);
+const halfWidth = track.scrollWidth / 2;
 
 
 
-scrollTimeout=setTimeout(()=>{
-
-
-currentSpeed = baseSpeed;
-
-
-},500);
-
-
-
-lastScroll=currentScroll;
-
-
-};
-
-
-
-
-
-const animate =()=>{
-
-
-position += currentSpeed * direction;
-
-
-
-const loopWidth =
-track.scrollWidth / 4;
-
-
-
-
-if(position >= loopWidth){
+if(position <= -halfWidth){
 
 position = 0;
 
 }
 
 
+if(position >= 0){
 
-if(position <= 0){
-
-position = loopWidth;
+position = -halfWidth;
 
 }
 
 
 
-
 track.style.transform =
-`translate3d(${-position}px,0,0)`;
+`translate3d(${position}px,0,0)`;
 
 
 
-animation=requestAnimationFrame(
-animate
-);
-
+animation = requestAnimationFrame(animate);
 
 
 };
 
 
 
-
-
-window.addEventListener(
-"scroll",
-handleScroll
-);
+animation=requestAnimationFrame(animate);
 
 
 
-animation=requestAnimationFrame(
-animate
-);
-
-
-
-
-
-return()=>{
-
-
-window.removeEventListener(
-"scroll",
-handleScroll
-);
-
-
-cancelAnimationFrame(animation);
-
-
-clearTimeout(scrollTimeout);
-
-
-};
+return()=>cancelAnimationFrame(animation);
 
 
 
@@ -171,60 +88,90 @@ clearTimeout(scrollTimeout);
 
 
 
-if(!data?.icons){
+const handleWheel=(e:React.WheelEvent)=>{
 
-return null;
+
+if(e.deltaY > 0){
+
+directionRef.current = -1;
+
+}
+
+else{
+
+directionRef.current = 1;
 
 }
 
 
 
+targetSpeed.current = 4;
 
 
-return(
 
+setTimeout(()=>{
+
+targetSpeed.current = 0.7;
+
+},600);
+
+
+
+};
+
+
+
+
+
+if(!data?.icons) return null;
+
+
+
+const icons=[
+
+...data.icons,
+
+...data.icons
+
+];
+
+
+
+return (
 
 <section className="tech-section">
-
 
 
 <div className="tech-container">
 
 
-
 <span className="tech-label">
-
 TECHNOLOGIES
-
 </span>
 
 
-
-
 <h2>
-
 Tools We Use
 <br/>
 To Build Better Solutions
-
 </h2>
 
 
 
-
 <p>
-
 We use modern technologies and platforms to create reliable digital solutions.
-
 </p>
 
 
 
 
+<div
 
+className="tech-carousel"
 
+onWheel={handleWheel}
 
-<div className="tech-carousel">
+>
 
 
 <div
@@ -238,50 +185,33 @@ ref={trackRef}
 
 {
 
-[
-...data.icons,
-...data.icons,
-...data.icons,
-...data.icons
-].map(
-(item:string,index:number)=>(
+icons.map((icon:any,index:number)=>(
 
 
-<motion.div
-
-key={index}
+<div
 
 className="tech-item"
 
-whileHover={{
-scale:1.15
-}}
+key={index}
 
 >
 
 
-<div className="tech-icon">
+<img
 
-◆
+src={icon.image}
+
+alt={icon.name}
+
+className="tech-image"
+
+/>
+
 
 </div>
 
 
-
-<span>
-
-{item}
-
-</span>
-
-
-
-</motion.div>
-
-
-)
-
-)
+))
 
 
 }
@@ -294,13 +224,10 @@ scale:1.15
 </div>
 
 
-
-
 </div>
 
 
 </section>
-
 
 )
 

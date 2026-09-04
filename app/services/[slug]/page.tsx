@@ -66,7 +66,7 @@ icons={service.icons}
 
 <ServiceSolutions data={service} />
 
-<ServiceTechnologies data={service} />
+
 
 <ServicePricing data={service} />
 

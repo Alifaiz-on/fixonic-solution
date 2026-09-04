@@ -14,9 +14,54 @@ description:
 
 
 icons:[
-"React",
-"Next.js",
-"Shopify"
+
+{
+name:"React",
+image:"/images/icons/website/react.png"
+},
+
+{
+name:"Next.js",
+image:"/images/icons/website/next.js.png"
+},
+
+{
+name:"Shopify",
+image:"/images/icons/website/shopify.png"
+},
+{
+name:"wordpress",
+image:"/images/icons/website/wordpress.png"
+},
+{
+name:"laravel",
+image:"/images/icons/website/laravel.png"
+},
+{
+name:"mysql",
+image:"/images/icons/website/mysql.png"
+},
+{
+name:"postgresql",
+image:"/images/icons/website/postgresql.png"
+},
+{
+name:"php",
+image:"/images/icons/website/php.png"
+},
+{
+name:"HTML5",
+image:"/images/icons/website/html5.png"
+},
+{
+name:"github",
+image:"/images/icons/website/github.png"
+},
+{
+name:"css3",
+image:"/images/icons/website/css3.png"
+}
+
 ],
 
 
@@ -205,9 +250,46 @@ description:
 
 
 icons:[
-"Google",
-"Analytics",
-"Search"
+
+{
+name:"ahref",
+image:"/images/icons/seo/ahref.png"
+},
+
+{
+name:"analytics",
+image:"/images/icons/seo/analytics.png"
+},
+
+{
+name:"frog",
+image:"/images/icons/seo/frog.png"
+},
+{
+name:"moz",
+image:"/images/icons/seo/moz.png"
+},
+{
+name:"rankmath",
+image:"/images/icons/seo/rankmath.png"
+},
+{
+name:"console",
+image:"/images/icons/seo/console.png"
+},
+{
+name:"semrush",
+image:"/images/icons/seo/semrush.png"
+},
+{
+name:"web master",
+image:"/images/icons/seo/master.png"
+},
+{
+name:"Yoast",
+image:"/images/icons/seo/yoast.png"
+}
+
 ],
 
 
@@ -381,10 +463,48 @@ description:
 
 icons:[
 
-"Meta Ads",
-"Google Ads",
-"Analytics",
-"HubSpot"
+{
+name:"Analytics",
+image:"/images/icons/marketing/analytics.png"
+},
+
+{
+name:"googleadds",
+image:"/images/icons/marketing/googleadds.png"
+},
+
+{
+name:"Hubspot",
+image:"/images/icons/marketing/hubspot.png"
+},
+{
+name:"LInkedin",
+image:"/images/icons/marketing/linkedin.png"
+},
+{
+name:"Mailchimp",
+image:"/images/icons/marketing/mailchimp.png"
+},
+{
+name:"Meta",
+image:"/images/icons/marketing/meta.png"
+},
+{
+name:"TAG",
+image:"/images/icons/marketing/tag.png"
+},
+{
+name:"TikTok",
+image:"/images/icons/marketing/tiktok.png"
+},
+{
+name:"Youtube",
+image:"/images/icons/marketing/youtube.png"
+},
+{
+name:"X",
+image:"/images/icons/marketing/x.png"
+}
 
 ],
 
@@ -604,10 +724,56 @@ description:
 
 icons:[
 
-"Figma",
-"Adobe XD",
-"Prototype",
-"Design System"
+{
+name:"After Effects",
+image:"/images/icons/Designing/aftereffects.png"
+},
+
+{
+name:"Blender",
+image:"/images/icons/Designing/blender.png"
+},
+
+{
+name:"Canva",
+image:"/images/icons/Designing/canva.png"
+},
+{
+name:"CorelDraw",
+image:"/images/icons/Designing/coreldraw.png"
+},
+{
+name:"Figma",
+image:"/images/icons/Designing/figma.png"
+},
+{
+name:"Framer",
+image:"/images/icons/Designing/framer.png"
+},
+{
+name:"Illustrator",
+image:"/images/icons/Designing/illustrator.png"
+},
+{
+name:"InDesign",
+image:"/images/icons/Designing/indesign.png"
+},
+{
+name:"Photoshop",
+image:"/images/icons/Designing/photoshop.png"
+},
+{
+name:"ProCreate",
+image:"/images/icons/Designing/procreate.png"
+},
+{
+name:"Sketch",
+image:"/images/icons/Designing/sketch.png"
+},
+{
+name:"premier",
+image:"/images/icons/Designing/premier.png"
+}
 
 ],
 
@@ -823,10 +989,40 @@ description:
 
 icons:[
 
-"OpenAI",
-"Automation",
-"APIs",
-"Cloud AI"
+{
+name:"Chat GPT",
+image:"/images/icons/ai/chatgpt.png"
+},
+
+{
+name:"Claude",
+image:"/images/icons/ai/claude.png"
+},
+
+{
+name:"Dontknow",
+image:"/images/icons/ai/dontknow.png"
+},
+{
+name:"Flowise",
+image:"/images/icons/ai/flowise.png"
+},
+{
+name:"Gemini",
+image:"/images/icons/ai/gemini.png"
+},
+{
+name:"Lang Chain",
+image:"/images/icons/ai/langchain.png"
+},
+{
+name:"N8N",
+image:"/images/icons/ai/n8n.png"
+},
+{
+name:"Hood",
+image:"/images/icons/ai/hood.png"
+}
 
 ],
 
@@ -1047,10 +1243,47 @@ description:
 
 icons:[
 
-"Domains",
-"Cloud",
-"SSL",
-"Servers"
+{
+name:"ONE",
+image:"/images/icons/Domain/1.png"
+},
+
+{
+name:"Two",
+image:"/images/icons/Domain/2.png"
+},
+
+{
+name:"AWS",
+image:"/images/icons/Domain/aws.png"
+},
+{
+name:"Blue Host",
+image:"/images/icons/Domain/bluehost.png"
+},
+{
+name:"Cloud Flare",
+image:"/images/icons/Domain/cloudflare.png"
+},
+{
+name:"Cpanel",
+image:"/images/icons/Domain/cpanel.png"
+},
+{
+name:"Godaddy",
+image:"/images/icons/Domain/godaddy.png"
+},
+{
+name:"NameCheap",
+image:"/images/icons/Domain/namecheap.png"
+},{
+name:"WHM",
+image:"/images/icons/Domain/whm.png"
+},
+{
+name:"Hostinger",
+image:"/images/icons/Domain/hostinger.png"
+}
 
 ],
 
