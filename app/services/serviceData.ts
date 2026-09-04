@@ -67,9 +67,125 @@ title:"Modern Website Architecture",
 text:"Scalable website systems built for future requirements."
 }
 
+],
+
+pricing:{
+
+title:
+"Website Packages Built For Growth",
+
+
+description:
+"Choose a website solution designed around your business requirements and growth goals.",
+
+
+plans:[
+
+
+{
+
+name:"Starter Website",
+
+price:"Starting From $999",
+
+description:
+"For small businesses that need a professional online presence.",
+
+features:[
+
+"Landing Page Design",
+
+"Responsive Development",
+
+"Basic SEO Setup",
+
+"Contact Integration"
+
 ]
 
 },
+
+
+
+{
+
+name:"Business Website",
+
+price:"Starting From $2499",
+
+description:
+"For businesses looking for a complete digital presence.",
+
+popular:true,
+
+features:[
+
+"Custom UI/UX Design",
+
+"Multi Page Website",
+
+"CMS Integration",
+
+"Performance Optimization",
+
+"SEO Friendly Structure"
+
+]
+
+},
+
+
+
+{
+
+name:"Custom Web Solution",
+
+price:"Custom",
+
+description:
+"For advanced websites and unique business requirements.",
+
+features:[
+
+"Custom Features",
+
+"Web Applications",
+
+"API Integrations",
+
+"Advanced Development"
+
+]
+
+}
+
+
+]
+
+},
+
+
+
+cta:{
+
+title:
+"Ready To Build Your Next Website?",
+
+
+description:
+"Let's create a fast, modern and conversion-focused website that helps your business grow.",
+
+
+button:
+"Start Website Project"
+
+}
+
+},
+
+
+
+
 
 
 

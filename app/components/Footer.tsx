@@ -34,9 +34,9 @@ export default function Footer() {
 
           <div>
             <h4>Social</h4>
-            <a href="#">Behance</a>
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
+            <a href="https://api.whatsapp.com/send/?phone=923154928521">Whatsapp</a>
+            <a href="https://www.facebook.com/fixonicsolutions">Facebook</a>
+            <a href="https://www.instagram.com/fixonicsolutions/">Instagram</a>
             <a href="#">LinkedIn</a>
           </div>
 

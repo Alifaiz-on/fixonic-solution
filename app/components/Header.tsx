@@ -235,7 +235,7 @@ export default function Header() {
       <div className={`mobile-panel ${mobileOpen ? "mobile-panel-open" : ""}`}>
         <div className="mobile-panel-content">
           <nav className="mobile-nav">
-            <a href="#" onClick={() => setMobileOpen(false)}>
+            <a href="/" onClick={() => setMobileOpen(false)}>
               Home
             </a>
 
@@ -268,11 +268,11 @@ export default function Header() {
               </div>
             </div>
 
-            <a href="#about" onClick={() => setMobileOpen(false)}>
+            <a href="/about" onClick={() => setMobileOpen(false)}>
               About Us
             </a>
 
-            <a href="#contact" onClick={() => setMobileOpen(false)}>
+            <a href="/contact" onClick={() => setMobileOpen(false)}>
               Contact Us
             </a>
           </nav>

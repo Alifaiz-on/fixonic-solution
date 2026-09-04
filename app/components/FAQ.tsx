@@ -160,8 +160,9 @@ return (
 
 
 <h2>
-Frequently Asked Questions
-</h2>
+Frequently Asked <strong className="grey-Heading">
+  Questions
+</strong></h2>
 
 
 

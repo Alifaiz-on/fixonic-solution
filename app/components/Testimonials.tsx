@@ -51,10 +51,10 @@ export default function Testimonials() {
           }}
         >
           TRUSTED BY
-          <br/>
+          <br/><strong className="grey-Heading">
           BUSINESSES ACROSS
           <br/>
-          INDUSTRIES
+          INDUSTRIES</strong>
         </motion.h2>
 
 

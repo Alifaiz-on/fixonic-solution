@@ -28,7 +28,7 @@ export default function ProjectsSection() {
         <div className="projects-heading">
           <h2>
             <span>Our highlights.</span>{" "}
-            <strong>
+            <strong className="grey-Heading">
               Recent
               <br />
               projects we&apos;re proud of.
