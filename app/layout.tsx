@@ -4,7 +4,7 @@ import "./globals.css";
 import SmoothScroll from "./components/SmoothScroll";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-
+import SchemaMarkup from "./components/SchemaMarkup";
 
 export const metadata: Metadata = {
 
@@ -91,6 +91,7 @@ return (
 
 <SmoothScroll>
 
+<SchemaMarkup />
 
 <Header />
 

@@ -7,6 +7,8 @@ import ServiceSolutions from "../components/ServiceSolutions";
 import ServicePricing from "../components/ServicePricing";
 import ServiceInnerCTA from "../components/ServiceInnerCTA";
 
+import ServiceSchema from "../../components/ServiceSchema";
+
 
 
 export async function generateMetadata({
@@ -22,7 +24,9 @@ slug:string
 }): Promise<Metadata>{
 
 
+
 const {slug} = await params;
+
 
 
 const service =
@@ -48,12 +52,12 @@ return {
 
 title:`${service.title} | Fixonic Solutions`,
 
-description: service.description,
-
+description:service.description,
 
 };
 
 }
+
 
 
 
@@ -71,12 +75,15 @@ slug:string
 }){
 
 
+
 const {slug}=await params;
 
 
 
 const service = 
 serviceData[slug as keyof typeof serviceData];
+
+
 
 
 
@@ -100,9 +107,21 @@ Service Not Found
 
 
 
+
+
 return (
 
 <main>
+
+
+<ServiceSchema
+
+title={service.title}
+
+description={service.description}
+
+/>
+
 
 
 <ServiceOverview
@@ -116,16 +135,21 @@ icons={service.icons}
 />
 
 
+
 <ServiceProblem data={service} />
+
 
 
 <ServiceSolutions data={service} />
 
 
+
 <ServicePricing data={service} />
 
 
+
 <ServiceInnerCTA data={service} />
+
 
 
 </main>
