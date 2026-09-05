@@ -8,7 +8,8 @@ title:
 "High-Performance Websites Built For Business Growth",
 
 problemImage:
-"/images/website.png",
+"/images/problems/website-development-services.jpg",
+
 description:
 "We create fast, responsive and SEO-friendly websites designed to improve your online presence, increase conversions and help your business grow.",
 
@@ -243,7 +244,7 @@ title:
 "Improve Rankings. Increase Organic Growth.",
 
 problemImage:
-"/images/seo.jpg",
+"/images/problems/seo-services.jpg",
 
 description:
 "Strategic SEO solutions focused on improving visibility, search rankings and bringing qualified traffic to your business.",
@@ -455,7 +456,7 @@ title:
 "Marketing Strategies That Turn Attention Into Growth.",
 
 problemImage:
-"/images/marketing.png",
+"/images/problems/marketing-services.jpg",
 
 description:
 "We create data-driven digital marketing campaigns that help brands reach the right audience, increase engagement and generate measurable business results.",
@@ -714,7 +715,7 @@ title:
 "Design Experiences Users Love.",
 
 problemImage:
-"/images/design.png",
+"/images/problems/designing-services.jpg",
 
 
 description:
@@ -981,6 +982,8 @@ label:"05 / AI SOLUTIONS",
 title:
 "Smart AI Solutions That Automate Your Business.",
 
+problemImage:
+"/images/problems/ai-automation-services.jpg",
 
 description:
 "We build intelligent AI-powered solutions that automate workflows, improve efficiency and help businesses make smarter decisions.",
@@ -1235,6 +1238,8 @@ label:"06 / DOMAIN & HOSTING",
 title:
 "Reliable Hosting Solutions For Your Digital Presence.",
 
+problemImage:
+"/images/problems/domain-hosting-services.jpg",
 
 description:
 "We provide secure domains, fast hosting and business email solutions that keep your website online, reliable and accessible.",

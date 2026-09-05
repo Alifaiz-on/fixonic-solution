@@ -182,15 +182,29 @@ export default function Header() {
 
                     <div className="mega-footer">
                       <span>Have a project that doesn&apos;t fit a box?</span>
+                       <div className="mega-footer-buttons">
+                        <a
+      href="/services"
+      className="view-services-btn"
+      onClick={() => setServicesOpen(false)}
+    >
+      <span>View All Services</span>
+      <ArrowIcon />
+    </a>
+
+
 
                       <a
                         href="https://api.whatsapp.com/send/?phone=923154928521"
+                        className="view-services-btn"
                         target="_blank"
                         rel="noreferrer"
                       >
+                        
                         <span>Talk to us</span>
                         <ArrowIcon />
                       </a>
+                      </div>
                     </div>
                   </div>
                 </div>
