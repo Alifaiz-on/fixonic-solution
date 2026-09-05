@@ -361,9 +361,9 @@ border:1px solid rgba(255,255,255,.08);
 height:520px;
 
 overflow-y:auto;
-
+-webkit-overflow-scrolling:touch;
 scroll-behavior:smooth;
-
+touch-action:pan-y;
 overscroll-behavior:contain;
 
 scrollbar-width:none;
@@ -596,9 +596,26 @@ height:auto;
 
 
 
+@media(max-width:768px){
+
+
 .services-scroll{
 
 height:auto;
+
+overflow:visible;
+
+}
+
+
+
+.services-box{
+
+overflow:visible;
+
+}
+
+
 
 }
 
@@ -674,7 +691,49 @@ gap:20px;
 /* =========================
 PROCESS SECTION
 ========================= */
+.process-section{
 
+width:100%;
+
+overflow:visible;
+
+}
+
+
+.process-list{
+
+width:100%;
+
+overflow:visible;
+
+-webkit-overflow-scrolling:touch;
+
+touch-action:pan-y;
+
+}
+
+
+
+@media(max-width:768px){
+
+.process-section{
+
+height:auto;
+
+overflow:visible;
+
+}
+
+
+.process-list{
+
+height:auto;
+
+overflow:visible;
+
+}
+
+}
 
 .process-canvas{
 
@@ -749,6 +808,12 @@ z-index:5;
 cursor:grab;
 
 touch-action:none;
+
+}
+
+.process-node--static{
+
+touch-action:auto;
 
 }
 
@@ -969,6 +1034,71 @@ height:auto;
 
 }
 
+
+
+@media(max-width:768px){
+
+
+.process-section{
+
+height:auto;
+
+overflow:visible;
+
+touch-action:auto;
+
+}
+
+
+
+.process-list{
+
+width:100%;
+
+max-width:480px;
+
+margin:0 auto;
+
+display:flex;
+
+flex-direction:column;
+
+gap:14px;
+
+padding:0 24px;
+
+overflow:visible;
+
+touch-action:auto;
+
+}
+
+
+
+.process-node--static{
+
+position:static;
+
+width:100%;
+
+height:auto;
+
+touch-action:auto;
+
+}
+
+
+
+.process-node--static .process-card{
+
+width:100%;
+
+height:auto;
+
+}
+
+
+}
 
 
 

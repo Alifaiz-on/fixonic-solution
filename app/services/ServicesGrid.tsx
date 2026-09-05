@@ -37,10 +37,9 @@ href:"/services/ai-solutions"
 
 {
 title:"Domain & Hosting",
-text:"Scalable web applications designed around your business requirements.",
+text:"Reliable hosting infrastructure designed for speed, security, and performance.",
 href:"/services/domain-hosting"
 },
-
 
 ];
 
@@ -63,6 +62,16 @@ if(!container) return;
 
 
 
+// mobile par custom scroll disable
+
+if(window.innerWidth <= 768){
+
+return;
+
+}
+
+
+
 const maxScroll =
 container.scrollHeight - container.clientHeight;
 
@@ -73,19 +82,14 @@ container.scrollTop;
 
 
 
-const down =
-e.deltaY > 0;
-
-
-const up =
-e.deltaY < 0;
-
-
-
 if(
-(down && current < maxScroll) ||
-(up && current > 0)
+
+(e.deltaY > 0 && current < maxScroll) ||
+
+(e.deltaY < 0 && current > 0)
+
 ){
+
 
 e.preventDefault();
 
@@ -98,8 +102,8 @@ container.scrollTop += e.deltaY;
 }
 
 
-
 };
+
 
 
 
@@ -118,7 +122,10 @@ WHAT WE CAN DO <span>FOR YOU?</span>
 
 
 
+
 <div className="services-box">
+
+
 
 
 
@@ -131,6 +138,8 @@ onWheelCapture={handleWheel}
 className="services-scroll"
 
 >
+
+
 
 
 
@@ -159,6 +168,7 @@ key={index}
 
 
 
+
 <div className="service-name">
 
 <h3>
@@ -168,6 +178,7 @@ key={index}
 </h3>
 
 </div>
+
 
 
 
@@ -188,11 +199,18 @@ key={index}
 
 ))
 
+
 }
 
 
 
+
+
 </div>
+
+
+
+
 
 
 
@@ -209,18 +227,28 @@ Free consultation
 
 
 <a
-  href="/contact"
-  className="services-cta-button"
+
+href="/contact"
+
+className="services-cta-button"
+
 >
-  SCHEDULE A FREE CALL ↗
+
+SCHEDULE A FREE CALL ↗
+
 </a>
 
 
+
+</div>
+
+
+
+
+
 </div>
 
 
-
-</div>
 
 
 
