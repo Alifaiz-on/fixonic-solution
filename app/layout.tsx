@@ -5,6 +5,7 @@ import SmoothScroll from "./components/SmoothScroll";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import SchemaMarkup from "./components/SchemaMarkup";
+import Preloader from "./components/Preloader";
 
 export const metadata: Metadata = {
 
@@ -90,6 +91,8 @@ return (
 
 
 <SmoothScroll>
+
+<Preloader />
 
 <SchemaMarkup />
 
