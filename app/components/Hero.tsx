@@ -15,7 +15,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
         >
-          Your Trusted Digital Solutions Partner
+          POWERFUL DIGITAL SOLUTIONS FOR YOUR BUSINESS GROWTH
         </motion.div>
 
         <motion.h1
