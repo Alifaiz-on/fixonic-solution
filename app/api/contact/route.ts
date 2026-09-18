@@ -211,15 +211,15 @@ export async function POST(req: Request) {
 
 
 
-    return Response.json({
-
-      success:true,
-
-      adminEmail,
-
-      customerEmail,
-
-    });
+return Response.json(
+{
+  success:true,
+  message:"Email sent successfully"
+},
+{
+  status:200
+}
+);
 
 
 
