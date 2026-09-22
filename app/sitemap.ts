@@ -1,59 +1,55 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-
   return [
-
     {
-      url: "https://fixonicsolutions.com/",
+      url: "https://www.fixonicsolutions.com/",
       lastModified: new Date(),
     },
 
     {
-      url: "https://fixonicsolutions.com/about",
+      url: "https://www.fixonicsolutions.com/about",
       lastModified: new Date(),
     },
 
     {
-      url: "https://fixonicsolutions.com/contact",
+      url: "https://www.fixonicsolutions.com/contact",
       lastModified: new Date(),
     },
 
     {
-      url: "https://fixonicsolutions.com/services",
+      url: "https://www.fixonicsolutions.com/services",
       lastModified: new Date(),
     },
 
     {
-      url: "https://fixonicsolutions.com/services/website-development",
+      url: "https://www.fixonicsolutions.com/services/website-development",
       lastModified: new Date(),
     },
 
     {
-      url: "https://fixonicsolutions.com/services/seo",
+      url: "https://www.fixonicsolutions.com/services/seo",
       lastModified: new Date(),
     },
 
     {
-      url: "https://fixonicsolutions.com/services/digital-marketing",
+      url: "https://www.fixonicsolutions.com/services/digital-marketing",
       lastModified: new Date(),
     },
 
     {
-      url: "https://fixonicsolutions.com/services/ui-ux-design",
+      url: "https://www.fixonicsolutions.com/services/ui-ux-design",
       lastModified: new Date(),
     },
 
     {
-      url: "https://fixonicsolutions.com/services/ai-solutions",
+      url: "https://www.fixonicsolutions.com/services/ai-solutions",
       lastModified: new Date(),
     },
 
     {
-      url: "https://fixonicsolutions.com/services/domain-hosting",
+      url: "https://www.fixonicsolutions.com/services/domain-hosting",
       lastModified: new Date(),
     },
-
   ];
-
 }
