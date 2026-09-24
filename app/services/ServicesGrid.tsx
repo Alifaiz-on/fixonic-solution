@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 
 
 const services = [
@@ -47,65 +47,52 @@ href:"/services/domain-hosting"
 
 export default function ServicesGrid(){
 
-
+const boxRef = useRef<HTMLDivElement>(null);
 const scrollRef = useRef<HTMLDivElement>(null);
 
+useEffect(() => {
+  const box = boxRef.current;
+  const container = scrollRef.current;
+  if (!box || !container) return;
 
+  const handleWheel = (e: WheelEvent) => {
+    // On mobile screens, let page scroll naturally
+    if (window.innerWidth <= 768) return;
 
-const handleWheel = (e:React.WheelEvent)=>{
+    // Stop propagation to window/Lenis
+    e.stopPropagation();
 
+    const { scrollTop, scrollHeight, clientHeight } = container;
+    const maxScroll = scrollHeight - clientHeight;
+    if (maxScroll <= 0) {
+      e.preventDefault();
+      return;
+    }
 
-const container = scrollRef.current;
+    const isScrollingDown = e.deltaY > 0;
+    const isScrollingUp = e.deltaY < 0;
+    const isAtTop = scrollTop <= 1;
+    const isAtBottom = Math.ceil(scrollTop + clientHeight) >= scrollHeight - 1;
 
+    // Prevent page scroll when reached boundary
+    if ((isScrollingUp && isAtTop) || (isScrollingDown && isAtBottom)) {
+      e.preventDefault();
+      return;
+    }
 
-if(!container) return;
+    // If mouse is on the outer box/CTA, redirect wheel scroll into the scrollable list
+    if (e.target && !container.contains(e.target as Node)) {
+      e.preventDefault();
+      container.scrollBy({ top: e.deltaY, behavior: "auto" });
+    }
+  };
 
+  box.addEventListener("wheel", handleWheel, { passive: false });
 
-
-// mobile par custom scroll disable
-
-if(window.innerWidth <= 768){
-
-return;
-
-}
-
-
-
-const maxScroll =
-container.scrollHeight - container.clientHeight;
-
-
-
-const current =
-container.scrollTop;
-
-
-
-if(
-
-(e.deltaY > 0 && current < maxScroll) ||
-
-(e.deltaY < 0 && current > 0)
-
-){
-
-
-e.preventDefault();
-
-e.stopPropagation();
-
-
-container.scrollTop += e.deltaY;
-
-
-}
-
-
-};
-
-
-
+  return () => {
+    box.removeEventListener("wheel", handleWheel);
+  };
+}, []);
 
 return (
 
@@ -123,7 +110,11 @@ WHAT WE CAN DO <span>FOR YOU?</span>
 
 
 
-<div className="services-box">
+<div
+  ref={boxRef}
+  className="services-box"
+  data-lenis-prevent
+>
 
 
 
@@ -133,9 +124,9 @@ WHAT WE CAN DO <span>FOR YOU?</span>
 
 ref={scrollRef}
 
-onWheelCapture={handleWheel}
-
 className="services-scroll"
+
+data-lenis-prevent
 
 >
 
