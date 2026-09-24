@@ -8,6 +8,12 @@
 
 html {
     scroll-behavior: auto;
+    color-scheme: dark;
+}
+
+select option {
+    background-color: #080e1b;
+    color: #ffffff;
 }
 
 body {

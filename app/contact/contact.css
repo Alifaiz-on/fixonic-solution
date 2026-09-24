@@ -961,6 +961,15 @@ outline:none;
 
 }
 
+.contact-form-box select {
+color-scheme: dark;
+}
+
+.contact-form-box select option {
+background-color: #080e1b;
+color: #ffffff;
+}
+
 
 
 .contact-form-box input:focus,
