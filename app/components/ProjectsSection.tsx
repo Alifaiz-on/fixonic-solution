@@ -38,13 +38,13 @@ export default function ProjectsSection() {
 
         <div className="projects-copy">
           <p className="projects-copy-left">
-            We work with growing businesses to create digital experiences that
-            look sharp, perform well, and support real business growth.
+            We work with growing businesses worldwide to create digital experiences that
+            look sharp, perform exceptionally, and support real business growth.
           </p>
 
           <p className="projects-copy-right">
-            Explore selected projects across web, branding, marketing, and
-            digital product design.
+            Explore selected projects across custom web development, brand strategy, performance marketing, and
+            digital solutions.
           </p>
         </div>
 

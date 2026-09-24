@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
   title: {
     default:
-      "Fixonic Solutions | Web Development, SEO & Digital Solutions",
+      "Global Digital Marketing & Web Agency | Fixonic Solutions",
 
     template:
       "%s | Fixonic Solutions",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 
 
   description:
-    "Fixonic Solutions provides website development, SEO, digital marketing, UI/UX design, AI automation and hosting solutions to help businesses grow online.",
+    "Fixonic Solutions is a full-service global digital marketing agency and custom web development partner delivering SEO, performance marketing, and AI automation for businesses worldwide.",
 
 
 
@@ -36,21 +36,27 @@ export const metadata: Metadata = {
 
     "Fixonic Solutions",
 
-    "web development company",
+    "Global Digital Marketing Agency",
 
-    "website development services",
+    "International Digital Marketing Agency",
+
+    "Full-Service Digital Agency",
+
+    "Custom Web Development & Digital Solutions",
+
+    "AI Automation & Growth Agency",
+
+    "Digital Transformation Partner",
+
+    "Performance Marketing & SEO Solutions",
+
+    "Digital Solutions for Businesses Worldwide",
 
     "custom website development",
 
     "SEO services",
 
-    "digital marketing agency",
-
     "UI UX design services",
-
-    "AI automation solutions",
-
-    "domain and hosting services",
 
   ],
 
@@ -94,12 +100,12 @@ export const metadata: Metadata = {
 
 
     title:
-      "Fixonic Solutions | Web Development & Digital Solutions",
+      "Global Digital Marketing & Web Agency | Fixonic Solutions",
 
 
 
     description:
-      "Modern websites, SEO strategies, digital marketing and AI solutions designed to help businesses grow.",
+      "Full-service global digital agency delivering custom web development, SEO, performance marketing, and AI automation for businesses worldwide.",
 
 
 
@@ -127,7 +133,7 @@ export const metadata: Metadata = {
           630,
 
         alt:
-          "Fixonic Solutions",
+          "Fixonic Solutions - Global Digital Marketing & Web Agency",
 
       },
 
@@ -157,12 +163,12 @@ export const metadata: Metadata = {
 
 
     title:
-      "Fixonic Solutions | Web Development & Digital Solutions",
+      "Global Digital Marketing & Web Agency | Fixonic Solutions",
 
 
 
     description:
-      "Website development, SEO, digital marketing, UI/UX design and AI solutions for growing businesses.",
+      "Full-service digital agency delivering custom web development, SEO, performance marketing, and AI automation for businesses worldwide.",
 
 
 

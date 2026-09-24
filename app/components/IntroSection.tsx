@@ -4,8 +4,8 @@ export default function IntroSection() {
       <div className="intro-container">
         <div className="intro-heading-wrap">
           <h2>
-            We Build Digital Solutions That Turn Ambitious Ideas Into Business
-            Growth.
+            Your Full-Service Digital Transformation Partner For Scalable
+            Business Growth.
           </h2>
         </div>
 
@@ -14,14 +14,14 @@ export default function IntroSection() {
             <p>
               <strong>About us.</strong>{" "}
               <span>
-                Fixonic Solutions brings strategy, design, technology, and
-                marketing together under one roof. We understand your business
-                first, then build digital systems around what actually moves it
-                forward.
+                As an <strong>international digital marketing agency</strong> and technology innovator,
+                Fixonic Solutions unites custom web development, performance marketing, and AI automation
+                under one roof. Headquartered in Pakistan and serving businesses worldwide, we understand
+                your market first, then build robust digital systems that drive measurable revenue.
               </span>{" "}
               <strong>
-                The result: digital solutions that don&apos;t just look good,
-                they perform.
+                The result: custom digital solutions that don&apos;t just look good,
+                they perform and scale.
               </strong>
             </p>
 
@@ -33,9 +33,8 @@ export default function IntroSection() {
 
           <div className="intro-side-copy">
             <p>
-              From websites and branding to SEO, digital marketing, AI
-              automation, mobile apps, and cloud solutions, every service is
-              built around growth.
+              From custom web development and branding to SEO, performance marketing,
+              AI automation, and cloud systems, every solution is engineered for global business growth.
             </p>
           </div>
         </div>

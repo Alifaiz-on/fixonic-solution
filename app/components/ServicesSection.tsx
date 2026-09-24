@@ -7,7 +7,7 @@ const services = [
     number: "01",
     title: "Web Design & Development",
     description:
-      "High-performance websites designed around clarity, user experience and business growth.",
+      "High-performance custom web development and UI/UX design built for conversions, speed, and business growth.",
     capabilities: [
       "UI/UX Design",
       "Development",
@@ -19,7 +19,7 @@ const services = [
     number: "02",
     title: "Digital Marketing",
     description:
-      "Performance-focused campaigns designed to turn attention into leads, sales and measurable growth.",
+      "Performance-focused digital marketing and paid ads designed to generate qualified leads and revenue worldwide.",
     capabilities: [
       "Meta Ads",
       "Google Ads",
@@ -31,7 +31,7 @@ const services = [
     number: "03",
     title: "Branding & Design",
     description:
-      "Distinct visual systems that give businesses a stronger, more consistent brand presence.",
+      "Distinct visual identity and brand design systems that give businesses a credible and lasting market presence.",
     capabilities: [
       "Brand Identity",
       "Graphic Design",
@@ -43,7 +43,7 @@ const services = [
     number: "04",
     title: "Search Engine Optimization",
     description:
-      "Search strategies built to improve visibility, organic traffic and long-term discoverability.",
+      "Data-backed SEO strategies engineered to improve Google rankings, increase organic traffic, and build authority.",
     capabilities: [
       "Technical SEO",
       "On-Page SEO",
@@ -55,7 +55,7 @@ const services = [
     number: "05",
     title: "AI Automation",
     description:
-      "Practical automation systems that reduce repetitive work and help teams operate more efficiently.",
+      "Intelligent AI automation and custom workflow systems that eliminate manual overhead and accelerate operations.",
     capabilities: [
       "AI Workflows",
       "Automation",
@@ -67,7 +67,7 @@ const services = [
     number: "06",
     title: "Mobile & Cloud",
     description:
-      "Scalable mobile and cloud solutions designed around performance, reliability and future growth.",
+      "Scalable mobile apps and cloud architecture built for security, high performance, and international scale.",
     capabilities: [
       "Mobile Apps",
       "Cloud",
@@ -92,7 +92,7 @@ export default function ServicesSection() {
             </h2>
 
             <p>
-              Digital services built to help businesses create, grow and scale.
+              Full-service digital solutions built to help businesses create, grow, and scale worldwide.
             </p>
           </div>
         </div>

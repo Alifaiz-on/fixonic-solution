@@ -42,12 +42,12 @@ const rightFaqs = [
   {
     question: "Do you only do design, or can you build the website too?",
     answer:
-      "We provide complete solutions including design, development, SEO, and digital marketing."
+      "We are a full-service digital agency providing custom web development, UI/UX design, SEO solutions, performance marketing, and AI automation under one roof."
   },
   {
     question: "Do you work with startups?",
     answer:
-      "Yes, we work with startups, SMEs, and established companies."
+      "Yes, we work with startups, SMEs, and international businesses worldwide to scale their digital presence."
   },
   {
     question: "How much does a typical project cost?",
@@ -142,21 +142,32 @@ opacity:0
 
 
 
-export default function FAQ(){
+export default function FAQ() {
+  const [leftOpen, setLeftOpen] = useState<number | null>(null);
+  const [rightOpen, setRightOpen] = useState<number | null>(null);
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [...leftFaqs, ...rightFaqs].map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer,
+      },
+    })),
+  };
 
-const [leftOpen,setLeftOpen] = useState<number|null>(null);
-
-const [rightOpen,setRightOpen] = useState<number|null>(null);
-
-
-
-return (
-
-<section className="faq-section">
-
-
-<div className="faq-container">
+  return (
+    <section className="faq-section">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqSchema),
+        }}
+      />
+      <div className="faq-container">
 
 
 <h2>

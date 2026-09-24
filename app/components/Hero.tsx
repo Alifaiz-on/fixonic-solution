@@ -15,7 +15,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
         >
-          POWERFUL DIGITAL SOLUTIONS FOR YOUR BUSINESS GROWTH
+          GLOBAL DIGITAL MARKETING & TECHNOLOGY AGENCY
         </motion.div>
 
         <motion.h1
@@ -42,10 +42,9 @@ export default function Hero() {
             delay: 0.3,
           }}
         >
-          From web development and branding to digital marketing, AI automation,
-          SEO, mobile apps, and cloud solutions,{" "}
-          <strong>Fixonic Solutions</strong> helps businesses grow with
-          innovative technology and result-driven strategies.
+          As a full-service <strong>global digital marketing agency</strong>,{" "}
+          <strong>Fixonic Solutions</strong> delivers custom web development, SEO strategies,
+          performance marketing, and AI automation to scale businesses worldwide.
         </motion.p>
 
         <motion.div
