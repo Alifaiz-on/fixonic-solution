@@ -118,11 +118,11 @@ text:"Scalable website systems built for future requirements."
 pricing:{
 
 title:
-"Website Packages Built For Growth",
+"Website Packages Built For Business Growth",
 
 
 description:
-"Choose a website solution designed around your business requirements and growth goals.",
+"Choose a high-performance web development solution engineered to scale your traffic, brand presence and revenue.",
 
 
 plans:[
@@ -132,20 +132,24 @@ plans:[
 
 name:"Starter Website",
 
-price:"Starting From $999",
+price:"Starting From $1,299",
 
 description:
-"For small businesses that need a professional online presence.",
+"For startups & solopreneurs seeking a high-converting, modern online presence.",
 
 features:[
 
-"Landing Page Design",
+"High-Converting Landing Page",
 
-"Responsive Development",
+"Custom Modern UI/UX Design (Figma to Code)",
 
-"Basic SEO Setup",
+"Mobile-First Responsive Architecture",
 
-"Contact Integration"
+"On-Page Technical SEO & Meta Tags",
+
+"Core Web Vitals Speed Optimization (90+ Score)",
+
+"Contact Form & WhatsApp Integration"
 
 ]
 
@@ -155,26 +159,28 @@ features:[
 
 {
 
-name:"Business Website",
+name:"Business Growth",
 
-price:"Starting From $2499",
+price:"Starting From $2,999",
 
 description:
-"For businesses looking for a complete digital presence.",
+"For growing businesses demanding a complete, authoritative digital platform.",
 
 popular:true,
 
 features:[
 
-"Custom UI/UX Design",
+"5–8 Custom Branded Responsive Pages",
 
-"Multi Page Website",
+"Next.js & Headless CMS Integration",
 
-"CMS Integration",
+"Interactive Animations & Micro-Interactions",
 
-"Performance Optimization",
+"Advanced Schema Markup & Rich Snippets",
 
-"SEO Friendly Structure"
+"Google Analytics 4 & Conversion Tracking",
+
+"30 Days Post-Launch Maintenance & Support"
 
 ]
 
@@ -184,22 +190,24 @@ features:[
 
 {
 
-name:"Custom Web Solution",
+name:"Custom Enterprise",
 
-price:"Custom",
+price:"Custom / From $5,999",
 
 description:
-"For advanced websites and unique business requirements.",
+"For advanced web applications, SaaS platforms and complex e-commerce stores.",
 
 features:[
 
-"Custom Features",
+"Full-Stack Web App / Custom Portal Architecture",
 
-"Web Applications",
+"Database & Custom API Integrations",
 
-"API Integrations",
+"Stripe / International Payment Gateways",
 
-"Advanced Development"
+"Enterprise Security & Role-Based Access Control",
+
+"Dedicated Senior Project Lead & SLA Guarantee"
 
 ]
 
@@ -349,29 +357,31 @@ text:"Improve website trust through backlinks and digital presence."
 
 pricing:{
 
-title:"SEO Plans Built For Growth",
+title:"SEO Plans Built For Sustainable Search Growth",
 
 description:
-"Choose an SEO plan designed around your business goals and growth stage.",
+"Strategic search engine optimization packages designed to dominate search rankings, drive high-intent traffic, and capture revenue.",
 
 
 plans:[
 
 {
 
-name:"Starter SEO",
+name:"Local & Technical SEO",
 
-price:"Starting From $499",
+price:"$699 / month",
 
 description:
-"For businesses beginning their SEO journey.",
+"For local businesses and niche service providers aiming for top regional rankings.",
 
 features:[
 
-"SEO Audit",
-"Keyword Research",
-"Basic Optimization",
-"Monthly Report"
+"Comprehensive Technical SEO Audit & Issue Fixes",
+"Google Business Profile (GBP) Optimization",
+"Local Citations & NAP Consistency Sync",
+"Target Commercial Keyword Research (15 Keywords)",
+"Schema Markup (LocalBusiness & Organization)",
+"Monthly Organic Performance & Ranking Reports"
 
 ]
 
@@ -381,22 +391,23 @@ features:[
 
 {
 
-name:"Growth SEO",
+name:"National Growth SEO",
 
-price:"Starting From $999",
+price:"$1,499 / month",
 
 description:
-"For businesses looking to improve rankings and organic traffic.",
+"For scaling brands, B2B companies, and e-commerce stores targeting competitive keywords.",
 
 popular:true,
 
 features:[
 
-"Complete SEO Strategy",
-"Technical SEO",
-"Content Optimization",
-"Competitor Analysis",
-"Monthly Improvements"
+"Complete On-Page & Technical Code Optimization",
+"Target Keyword Expansion (40+ High-Intent Keywords)",
+"Generative Engine Optimization (GEO & AI Search)",
+"High-Authority Backlink Acquisition Strategy",
+"2 SEO-Optimized Authority Blog Articles / Month",
+"Competitor Gap Analysis & Bi-Weekly Tracking"
 
 ]
 
@@ -406,19 +417,20 @@ features:[
 
 {
 
-name:"Enterprise SEO",
+name:"Enterprise & Global Authority",
 
-price:"Custom",
+price:"$2,899 / month",
 
 description:
-"For businesses needing advanced SEO campaigns.",
+"For high-growth scaleups and international enterprises needing global market visibility.",
 
 features:[
 
-"Advanced SEO",
-"Content Strategy",
-"Authority Building",
-"Custom Reporting"
+"Multi-Country & International Hreflang SEO",
+"Digital PR & Tier-1 Editorial Backlink Building",
+"Core Web Vitals & JavaScript SEO Overhaul",
+"Conversion Rate Optimization (CRO) Consulting",
+"Dedicated Senior SEO Strategist & Weekly Syncs"
 
 ]
 
@@ -593,11 +605,11 @@ text:"Track performance, analyze data and continuously improve campaign results.
 pricing:{
 
 title:
-"Marketing Packages Built For Growth",
+"Performance Marketing Packages Built For ROI",
 
 
 description:
-"Choose a digital marketing solution designed around your goals and audience.",
+"Data-driven paid media and growth campaigns designed to turn ad spend into profitable pipeline and revenue.",
 
 
 
@@ -606,20 +618,24 @@ plans:[
 
 {
 
-name:"Starter Marketing",
+name:"Starter Ads Launch",
 
-price:"Starting From $499",
+price:"$799 / month",
 
 description:
-"For businesses starting their digital marketing journey.",
+"For businesses testing paid acquisition or launching their first high-ROI ad campaign.",
 
 features:[
 
-"Social Media Strategy",
+"Single Ad Channel Focus (Google Ads or Meta Ads)",
 
-"Basic Ad Campaigns",
+"Audience Persona Research & Competitive Targeting",
 
-"Monthly Reporting"
+"High-Converting Ad Copywriting & Creative Design",
+
+"Meta Pixel & Google Ads Conversion Tracking",
+
+"Weekly Budget Pacing & Bid Optimization"
 
 ]
 
@@ -629,24 +645,28 @@ features:[
 
 {
 
-name:"Growth Marketing",
+name:"Omnichannel Scale",
 
-price:"Starting From $1499",
+price:"$1,899 / month",
 
 description:
-"For brands looking to scale their online presence.",
+"For brands scaling customer acquisition across search, social, and retargeting funnels.",
 
 popular:true,
 
 features:[
 
-"Meta & Google Ads",
+"Multi-Channel Management (Google + Meta + Retargeting)",
 
-"Content Strategy",
+"Custom Landing Page & Conversion Funnel Optimization",
 
-"Campaign Optimization",
+"Advanced Meta CAPI (Server-Side Conversion API)",
 
-"Performance Reports"
+"Dynamic Retargeting & High-LTV Lookalike Audiences",
+
+"Continuous A/B Split Testing for Creatives & Hooks",
+
+"Real-Time ROI Dashboard & Bi-Weekly Strategy Calls"
 
 ]
 
@@ -656,22 +676,24 @@ features:[
 
 {
 
-name:"Custom Campaign",
+name:"Full-Funnel Growth Partner",
 
-price:"Custom",
+price:"$3,499 / month",
 
 description:
-"For businesses requiring complete marketing solutions.",
+"For rapid-growth enterprises requiring an outsourced full-stack marketing department.",
 
 features:[
 
-"Full Marketing Strategy",
+"Omnichannel Ads (Search, Social, YouTube & Display)",
 
-"Advanced Campaigns",
+"In-House Creative Studio: Video Hooks, Motion & Banners",
 
-"Creative Direction",
+"Email Marketing Automation & Retention (Klaviyo/Brevo)",
 
-"Dedicated Support"
+"End-to-End Multi-Touch Attribution & ROAS Scaling",
+
+"Dedicated Senior Growth Marketing Director"
 
 ]
 
@@ -862,11 +884,11 @@ text:"Build scalable design frameworks for consistent experiences."
 pricing:{
 
 title:
-"Design Packages For Every Business",
+"UI/UX Design Packages Engineered For Conversion",
 
 
 description:
-"From simple interfaces to complete digital experiences, choose what fits your needs.",
+"From intuitive landing pages to scalable design systems, we craft digital product experiences that users love.",
 
 
 
@@ -875,20 +897,24 @@ plans:[
 
 {
 
-name:"Starter Design",
+name:"UI/UX Audit & Landing Page",
 
-price:"Starting From $399",
+price:"Starting From $799",
 
 description:
-"For businesses needing basic design support.",
+"For businesses looking to redesign an existing landing page or audit UX drop-offs.",
 
 features:[
 
-"UI Design",
+"Comprehensive UX Heuristic Audit of Current Site",
 
-"Landing Page Design",
+"Wireframing & Information Architecture",
 
-"Basic Prototype"
+"High-Fidelity Desktop & Mobile UI (Figma)",
+
+"Clickable Interactive Prototype for User Testing",
+
+"Design System Style Guide (Typography & Color Tokens)"
 
 ]
 
@@ -898,24 +924,26 @@ features:[
 
 {
 
-name:"Product Design",
+name:"Full Product Design",
 
-price:"Starting From $999",
+price:"Starting From $2,199",
 
 description:
-"For businesses building complete digital products.",
+"For web applications, SaaS dashboards, and multi-page digital platforms.",
 
 popular:true,
 
 features:[
 
-"UX Research",
+"User Research, Persona Development & Journey Mapping",
 
-"Complete UI Design",
+"Complete 6–10 Screen Web / App User Interface",
 
-"Interactive Prototype",
+"Scalable Figma Design System with Components & Variants",
 
-"Design System"
+"Micro-Interactions, Hover States & Animation Specs",
+
+"Developer-Ready Hand-off with Design Tokens"
 
 ]
 
@@ -925,22 +953,24 @@ features:[
 
 {
 
-name:"Custom Experience",
+name:"SaaS & Mobile App System",
 
-price:"Custom",
+price:"Custom / From $4,500",
 
 description:
-"For advanced platforms and applications.",
+"For funded startups and tech enterprises building complex multi-platform products.",
 
 features:[
 
-"Complete UX Strategy",
+"Complete Web & Mobile App Ecosystem (20+ Screens)",
 
-"Advanced Research",
+"Full User Flow Diagramming & Edge Case Scenarios",
 
-"Custom Design System",
+"Enterprise Component Library (Auto-Layout, Dark Mode)",
 
-"Dedicated Designer"
+"Moderated Usability Testing & Iterative Prototypes",
+
+"Ongoing Design Partnership & Sprint Integration"
 
 ]
 
@@ -1113,11 +1143,11 @@ text:"Transform business data into useful insights for better decisions."
 pricing:{
 
 title:
-"AI Solutions Designed Around Your Business",
+"AI Automation Packages Engineered To Save Time",
 
 
 description:
-"From automation to custom AI systems, choose the solution that fits your business requirements.",
+"Intelligent workflow automation and bespoke AI agent systems tailored to eliminate operational friction.",
 
 
 
@@ -1126,20 +1156,24 @@ plans:[
 
 {
 
-name:"AI Starter",
+name:"AI Starter Automation",
 
-price:"Starting From $999",
+price:"Starting From $1,199",
 
 description:
-"For businesses exploring AI automation.",
+"For teams drowning in repetitive manual tasks looking for instant efficiency gains.",
 
 features:[
 
-"AI Consultation",
+"Custom AI Chatbot Trained on Company Knowledge Base",
 
-"Basic Automation",
+"Automated Lead Qualification & Instant CRM Sync",
 
-"Workflow Analysis"
+"Smart Email Auto-Triage & Auto-Drafting Pipelines",
+
+"Integration with Slack, WhatsApp, Zapier & Make",
+
+"Complete Staff Training & Architecture Documentation"
 
 ]
 
@@ -1149,24 +1183,26 @@ features:[
 
 {
 
-name:"AI Growth",
+name:"AI Business Workflows",
 
-price:"Starting From $2499",
+price:"Starting From $2,799",
 
 description:
-"For businesses implementing intelligent systems.",
+"For scaling companies deploying intelligent autonomous workflows and document intelligence.",
 
 popular:true,
 
 features:[
 
-"Custom AI Automation",
+"Multi-Step Autonomous AI Agents for Complex Operations",
 
-"AI Assistants",
+"Document Extraction & Data Processing Pipelines",
 
-"API Integration",
+"Custom LLM Prompt Engineering & Output Guardrails",
 
-"Process Optimization"
+"RAG (Retrieval-Augmented Generation) Architecture",
+
+"Custom API Middleware, Webhooks & Secure DB Sync"
 
 ]
 
@@ -1176,22 +1212,24 @@ features:[
 
 {
 
-name:"Enterprise AI",
+name:"Custom Enterprise AI Systems",
 
-price:"Custom",
+price:"Custom / From $6,500",
 
 description:
-"For advanced AI-powered business solutions.",
+"For organizations building mission-critical, proprietary AI platforms and private models.",
 
 features:[
 
-"Custom AI Systems",
+"Bespoke Multi-Agent Ecosystem with Tool-Calling",
 
-"Advanced Integrations",
+"Fine-Tuned Domain Models on Private Cloud Infrastructure",
 
-"Data Solutions",
+"Enterprise Data Privacy, SOC2/GDPR Compliance",
 
-"Dedicated Support"
+"Custom Scalable Vector Database Deployment",
+
+"Dedicated AI Engineer & Continuous Model Optimization"
 
 ]
 
@@ -1378,11 +1416,11 @@ text:"Protect your website with SSL, backups and secure infrastructure."
 pricing:{
 
 title:
-"Hosting Plans For Every Business",
+"High-Performance Managed Cloud Hosting",
 
 
 description:
-"Choose a hosting solution that matches your website requirements.",
+"Enterprise-grade cloud infrastructure engineered for 99.99% uptime, blazing speeds, and rock-solid security.",
 
 
 
@@ -1391,22 +1429,24 @@ plans:[
 
 {
 
-name:"Starter Hosting",
+name:"Cloud Starter",
 
-price:"Starting From $99",
+price:"$149 / year",
 
 description:
-"For small websites and new businesses.",
+"For brochure, portfolio, and early-stage websites requiring dependable hosting.",
 
 features:[
 
-"1 Website",
+"High-Speed Cloud SSD Server Infrastructure",
 
-"SSL Certificate",
+"Free Let's Encrypt SSL & Managed DNS Records",
 
-"Basic Storage",
+"Automated Weekly Cloud Backups with 1-Click Restore",
 
-"Email Support"
+"99.9% Server Uptime Guarantee",
+
+"Standard Web Application Firewall & DDoS Mitigation"
 
 ]
 
@@ -1417,24 +1457,28 @@ features:[
 
 {
 
-name:"Business Hosting",
+name:"Business Performance Cloud",
 
-price:"Starting From $299",
+price:"$399 / year (or $39/mo)",
 
 description:
-"For growing businesses needing reliable performance.",
+"For e-commerce, active blogs, and corporate websites demanding ultra-fast load times.",
 
 popular:true,
 
 features:[
 
-"Multiple Websites",
+"Ultra-Fast NVMe Cloud Infrastructure",
 
-"Business Email",
+"Global Cloudflare Edge CDN & Caching Integration",
 
-"Better Performance",
+"Automated Daily Offsite Backups with Instant Rollback",
 
-"Priority Support"
+"Real-Time Malware Scanning & Advanced WAF Protection",
+
+"Dedicated Staging Sandbox Environment",
+
+"Priority 24/7 Technical Support & Uptime Monitoring"
 
 ]
 
@@ -1442,24 +1486,27 @@ features:[
 
 
 
+
 {
 
-name:"Premium Hosting",
+name:"Dedicated Enterprise Cluster",
 
-price:"Custom",
+price:"Custom / From $899 / year",
 
 description:
-"For high-traffic websites and advanced needs.",
+"For high-traffic portals, web applications, and mission-critical enterprise platforms.",
 
 features:[
 
-"Advanced Servers",
+"Isolated Dedicated Cloud Server & Custom Private VPC",
 
-"Scalable Resources",
+"Automatic Load Balancing & Auto-Scaling for Traffic Spikes",
 
-"Security Features",
+"15-Minute Critical Response Time SLA",
 
-"Dedicated Support"
+"Custom Server Hardening, Threat Monitoring & Compliance",
+
+"Dedicated DevOps Infrastructure Manager"
 
 ]
 

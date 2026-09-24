@@ -10,10 +10,14 @@ import ServicesCTA from "./ServicesCTA";
 
 export const metadata: Metadata = {
 
-title: "Services | Fixonic Solutions",
+title: "Services",
 
 description:
 "Explore Fixonic Solutions services including website development, SEO, digital marketing, UI/UX design, AI solutions and domain hosting.",
+
+alternates: {
+canonical: "https://www.fixonicsolutions.com/services",
+},
 
 };
 

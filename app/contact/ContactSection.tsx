@@ -321,13 +321,15 @@ BUDGET RANGE
 <select name="budget">
 
 
-<option>Select Budget</option>
+<option value="">Select Budget</option>
 
-<option>$1000 - $5000</option>
+<option>$1,000 - $3,000</option>
 
-<option>$5000 - $10000</option>
+<option>$3,000 - $7,000</option>
 
-<option>$10000+</option>
+<option>$7,000 - $15,000</option>
+
+<option>$15,000+</option>
 
 
 </select>
