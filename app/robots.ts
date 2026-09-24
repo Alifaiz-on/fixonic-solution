@@ -13,7 +13,7 @@ allow:"/",
 },
 
 sitemap:
-"https://fixonic-solution.vercel.app/sitemap.xml",
+"https://www.fixonicsolutions.com/sitemap.xml",
 
 };
 

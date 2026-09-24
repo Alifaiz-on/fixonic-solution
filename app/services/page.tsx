@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./services.css";
 
-import Header from "../components/Header";
 import ServicesHero from "./ServicesHero";
 import ServicesGrid from "./ServicesGrid";
 import ServiceProcess from "./ServiceProcess";
@@ -24,25 +23,13 @@ export default function ServicesPage(){
 
 return(
 
-<>
-
-<Header />
-
 <main>
-
 <ServicesHero />
-
 <ServicesGrid />
-
 <ServiceProcess />
-
 <ServicesWhyChoose />
-
 <ServicesCTA />
-
 </main>
-
-</>
 
 )
 

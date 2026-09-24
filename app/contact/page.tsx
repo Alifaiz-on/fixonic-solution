@@ -1,8 +1,5 @@
 import "./contact.css";
 
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-
 import ContactHero from "./ContactHero";
 import ContactSection from "./ContactSection";
 import ContactMap from "./ContactMap";
@@ -11,11 +8,6 @@ import ContactMap from "./ContactMap";
 export default function ContactPage(){
 
 return(
-
-<>
-
-<Header />
-
 
 <main>
 
@@ -32,12 +24,5 @@ return(
 
 
 </main>
-
-
-
-
-</>
-
-)
-
+  );
 }

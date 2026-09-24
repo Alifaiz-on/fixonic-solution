@@ -26,7 +26,9 @@ setStatus("");
 try{
 
 
-const formData = new FormData(e.currentTarget);
+const form = e.currentTarget;
+
+const formData = new FormData(form);
 
 
 
@@ -77,7 +79,7 @@ if(response.ok){
 
 setStatus("Message sent successfully!");
 
-e.currentTarget.reset();
+form.reset();
 
 
 }else{

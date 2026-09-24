@@ -6,17 +6,18 @@ const schema = {
 
 "name": "Fixonic Solutions",
 
-"url": "https://fixonic-solution.vercel.app",
+"url": "https://www.fixonicsolutions.com",
 
 "logo":
-"https://fixonic-solution.vercel.app/images/logo.png",
+"https://www.fixonicsolutions.com/images/logo.png",
 
 "description":
 "Fixonic Solutions provides website development, SEO, digital marketing, UI/UX design, AI solutions and hosting services.",
 
 
 "sameAs":[
-
+"https://www.facebook.com/fixonicsolutions",
+"https://www.instagram.com/fixonicsolutions/"
 ],
 
 

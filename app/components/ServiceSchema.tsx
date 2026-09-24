@@ -33,7 +33,7 @@ const schema = {
 
 "name":"Fixonic Solutions",
 
-"url":"https://fixonic-solution.vercel.app"
+"url":"https://www.fixonicsolutions.com"
 
 },
 
