@@ -7,37 +7,37 @@ const services = [
 
 {
 title:"Website Development",
-text:"High-performance websites built with modern technologies to improve your online presence and business growth.",
+text:"Custom, high-performance websites and web applications built with Next.js, React, and modern tech to maximize speed and conversions.",
 href:"/services/website-development"
 },
 
 {
 title:"UI/UX Design",
-text:"User-focused digital experiences designed to make your website simple, attractive, and easy to use.",
+text:"User-focused digital design, wireframing, and interactive UI/UX prototypes engineered for seamless user journeys and brand appeal.",
 href:"/services/ui-ux-design"
 },
 
 {
 title:"SEO Optimization",
-text:"Strategic SEO solutions that improve rankings, visibility, and bring organic traffic to your business.",
+text:"Data-driven SEO strategies, technical audits, and content optimization that improve Google rankings and drive continuous organic traffic.",
 href:"/services/seo"
 },
 
 {
 title:"Digital Marketing",
-text:"Performance-driven campaigns that connect your brand with the right audience.",
+text:"Performance marketing, Google Ads, and Meta advertising campaigns engineered to acquire qualified leads and accelerate revenue.",
 href:"/services/digital-marketing"
 },
 
 {
 title:"AI Solutions",
-text:"Smart automation and AI-powered solutions that improve productivity and efficiency.",
+text:"Intelligent AI automation, custom workflow agents, and smart integrations that streamline operations and cut overhead costs.",
 href:"/services/ai-solutions"
 },
 
 {
 title:"Domain & Hosting",
-text:"Reliable hosting infrastructure designed for speed, security, and performance.",
+text:"Managed cloud hosting, ultra-fast servers, SSL security, and reliable infrastructure designed for 99.9% uptime worldwide.",
 href:"/services/domain-hosting"
 },
 

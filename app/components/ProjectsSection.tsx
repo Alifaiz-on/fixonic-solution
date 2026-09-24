@@ -52,7 +52,12 @@ export default function ProjectsSection() {
           {projects.map((project) => (
             <a href="#" className="project-card" key={project.title}>
               <div className="project-image">
-                <img src={project.image} alt={project.title} />
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  loading="lazy"
+                  decoding="async"
+                />
 
                 <div className="project-tags">
                   {project.tags.map((tag) => (

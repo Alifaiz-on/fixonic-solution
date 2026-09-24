@@ -3,14 +3,14 @@
 import { motion } from "framer-motion";
 
 const services = [
-  "Website Development",
-  "UI/UX Design",
-  "Search Engine Optimization",
-  "Digital Marketing",
-  "Tech Support",
-  "eCommerce Solutions",
+  "Custom Website Development",
+  "UI/UX Design & Prototyping",
+  "Search Engine Optimization (SEO)",
+  "Performance Marketing & Ads",
+  "AI Automation & Workflows",
+  "eCommerce Web Solutions",
   "Custom Web Applications",
-  "WordPress Development",
+  "Cloud & DevOps Support",
 ];
 
 export default function AboutContent() {
@@ -89,8 +89,10 @@ export default function AboutContent() {
           <div className="image-glow"></div>
 
           <img
-            src="/images/banner2.jpg    "
-            alt="Digital Technology"
+            src="/images/banner2.jpg"
+            alt="Fixonic Solutions - Digital Technology & Web Development"
+            loading="lazy"
+            decoding="async"
           />
 
         </motion.div>

@@ -68,18 +68,17 @@ viewport={{once:true}}
 
 
 <p>
-We are a team of passionate designers, developers,
-marketers, and technology experts committed to
-delivering high-quality digital solutions for startups,
-small businesses, and enterprises.
+We are a team of passionate designers, developers, performance
+marketers, and AI technology specialists committed to delivering
+high-quality digital solutions for startups, small businesses,
+and global enterprises.
 </p>
 
 
 <p>
-By understanding each client's goals, target audience,
-and industry, we develop customized strategies that
-help businesses stand out in today's competitive
-digital landscape.
+Headquartered in Pakistan and serving clients worldwide, we build
+customized digital systems around your goals and market demands,
+helping businesses achieve measurable, long-term growth.
 </p>
 
 

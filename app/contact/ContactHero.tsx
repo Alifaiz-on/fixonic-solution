@@ -128,7 +128,7 @@ Email
 </span>
 
 <p>
-info@fixonicsolution.com
+info@fixonicsolutions.com
 </p>
 
 </div>

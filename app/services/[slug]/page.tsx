@@ -32,16 +32,18 @@ export async function generateMetadata({
   }
 
   const canonicalUrl = `https://www.fixonicsolutions.com/services/${slug}`;
+  const seoTitle = (service as any).seoTitle || service.title;
+  const seoDescription = (service as any).seoDescription || service.description;
 
   return {
-    title: service.title,
-    description: service.description,
+    title: seoTitle,
+    description: seoDescription,
     alternates: {
       canonical: canonicalUrl,
     },
     openGraph: {
-      title: `${service.title} | Fixonic Solutions`,
-      description: service.description,
+      title: `${seoTitle} | Fixonic Solutions`,
+      description: seoDescription,
       url: canonicalUrl,
       siteName: "Fixonic Solutions",
       locale: "en_US",
@@ -51,14 +53,14 @@ export async function generateMetadata({
           url: service.problemImage || "/images/logo.png",
           width: 1200,
           height: 630,
-          alt: service.title,
+          alt: seoTitle,
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: `${service.title} | Fixonic Solutions`,
-      description: service.description,
+      title: `${seoTitle} | Fixonic Solutions`,
+      description: seoDescription,
       images: [service.problemImage || "/images/logo.png"],
     },
   };

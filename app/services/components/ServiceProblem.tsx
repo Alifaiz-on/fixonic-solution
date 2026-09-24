@@ -163,11 +163,10 @@ duration:.2
 
 
 <img
-
 src={data.problemImage || "/images/service-mockup.png"}
-
 alt={data.title}
-
+loading="lazy"
+decoding="async"
 />
 
 

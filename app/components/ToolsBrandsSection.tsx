@@ -135,7 +135,12 @@ export default function ToolsBrandsSection() {
                   scale: 1.04,
                 }}
               >
-                <img src={tool.image} alt={tool.name} />
+                <img
+                  src={tool.image}
+                  alt={tool.name}
+                  loading="lazy"
+                  decoding="async"
+                />
               </motion.div>
             ))}
           </div>

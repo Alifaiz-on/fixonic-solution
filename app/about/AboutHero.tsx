@@ -113,9 +113,9 @@ delay:.3
 >
 
 
-We combine strategy, design, technology and marketing
-to create digital experiences that help businesses build
-stronger brands and achieve measurable growth.
+We combine strategy, design, custom web technology, and performance marketing
+to create digital experiences that help businesses build stronger brands and
+achieve measurable global growth.
 
 
 </motion.p>

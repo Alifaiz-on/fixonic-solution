@@ -52,9 +52,9 @@ BUSINESSES GROW.
 
 
 <p>
-We create powerful digital experiences through technology,
-design, and strategy. From websites to marketing solutions,
-we help businesses build a stronger online presence.
+We create high-performance digital experiences through modern technology,
+intuitive design, and data-driven marketing. From custom web development
+to SEO and AI automation, we help businesses build a dominant online presence worldwide.
 </p>
 
 

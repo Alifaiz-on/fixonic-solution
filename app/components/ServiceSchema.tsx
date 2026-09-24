@@ -28,7 +28,8 @@ export default function ServiceSchema({
           "logo": "https://www.fixonicsolutions.com/images/logo.png",
         },
         "areaServed": {
-          "@type": "Worldwide",
+          "@type": "AdministrativeArea",
+          "name": "Worldwide",
         },
         "serviceType": title,
       },

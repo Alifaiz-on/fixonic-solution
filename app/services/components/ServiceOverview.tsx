@@ -140,11 +140,10 @@ key={index}
 
 
 <img
-
 src={icon.image}
-
 alt={icon.name}
-
+loading="lazy"
+decoding="async"
 />
 
 

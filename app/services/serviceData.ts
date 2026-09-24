@@ -7,6 +7,12 @@ label:"01 / WEBSITE DEVELOPMENT",
 title:
 "High-Performance Websites Built For Business Growth",
 
+seoTitle:
+"Custom Website Development Services & Solutions",
+
+seoDescription:
+"High-performance custom website development services. We build fast, responsive, and SEO-friendly websites engineered to turn visitors into paying clients.",
+
 problemImage:
 "/images/problems/website-development-services.jpg",
 
@@ -251,6 +257,12 @@ label:"02 / SEO SERVICES",
 title:
 "Improve Rankings. Increase Organic Growth.",
 
+seoTitle:
+"Search Engine Optimization (SEO) Services & Ranking Solutions",
+
+seoDescription:
+"Strategic SEO services built to improve organic rankings, drive qualified search traffic, and scale digital authority for global businesses.",
+
 problemImage:
 "/images/problems/seo-services.jpg",
 
@@ -466,6 +478,12 @@ label:"03 / DIGITAL MARKETING",
 
 title:
 "Marketing Strategies That Turn Attention Into Growth.",
+
+seoTitle:
+"Performance Digital Marketing & Paid Advertising Agency",
+
+seoDescription:
+"Data-driven digital marketing agency delivering high-converting Google Ads, Meta campaigns, and funnel strategies that generate measurable business ROI.",
 
 problemImage:
 "/images/problems/marketing-services.jpg",
@@ -735,6 +753,12 @@ label:"04 / UI UX DESIGN",
 
 title:
 "Design Experiences Users Love.",
+
+seoTitle:
+"UI/UX Design Services & Digital Product Interfaces",
+
+seoDescription:
+"Professional UI/UX design services. We craft intuitive user journeys, wireframes, prototypes, and conversion-focused digital experiences users love.",
 
 problemImage:
 "/images/problems/designing-services.jpg",
@@ -1012,6 +1036,12 @@ label:"05 / AI SOLUTIONS",
 title:
 "Smart AI Solutions That Automate Your Business.",
 
+seoTitle:
+"AI Automation Solutions & Custom Workflow Systems",
+
+seoDescription:
+"Intelligent AI automation services and custom workflow systems that eliminate manual overhead, automate processes, and scale operations efficiently.",
+
 problemImage:
 "/images/problems/ai-automation-services.jpg",
 
@@ -1275,6 +1305,12 @@ label:"06 / DOMAIN & HOSTING",
 
 title:
 "Reliable Hosting Solutions For Your Digital Presence.",
+
+seoTitle:
+"Managed Cloud Hosting, Domain & Server Infrastructure",
+
+seoDescription:
+"Secure domain registration, blazing-fast cloud hosting infrastructure, free SSL security, and 99.9% uptime server management worldwide.",
 
 problemImage:
 "/images/problems/domain-hosting-services.jpg",

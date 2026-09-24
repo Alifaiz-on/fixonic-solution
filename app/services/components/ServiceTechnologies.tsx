@@ -198,13 +198,11 @@ key={index}
 
 
 <img
-
 src={icon.image}
-
 alt={icon.name}
-
 className="tech-image"
-
+loading="lazy"
+decoding="async"
 />
 
 
